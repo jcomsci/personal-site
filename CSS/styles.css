@@ -1,0 +1,238 @@
+
+
+/* or margin:0; */
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Gotu', sans-serif;
+  color:#40514E;
+}
+
+p {
+  line-height: 2rem;
+}
+
+hr {
+  clear: both;
+  border: none;
+  border-top: dotted 0.5rem;
+  border-bottom: none;
+  width: 4rem;
+  color: #a2a8d3;
+  margin: 3.5rem auto;
+}
+
+/* tag selectors*/
+h1{
+  font-size: 375%;
+  margin: 50px auto 0 auto;
+  font-family: 'Homemade Apple', cursive;
+  color: #342ead;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Patrick Hand', cursive;
+  color: #a05f96;
+  /* font-family: 'Neucha', cursive; */
+  /*color: #66BFBF;*/
+  padding-bottom: 2rem;
+}
+
+h3{
+  font-size: 156%;
+  font-family: 'Neucha', cursive;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+  /* margin: 10px 20px;*/
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+span{
+  text-decoration: underline;
+}
+
+.top{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  vertical-align: top;
+}
+
+.top-cloud{
+  margin-top: 50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.summary{
+  font-size: 175%;
+}
+
+.middle-container{
+  padding-top: 3.25rem;
+  background-color: #c7f0db;
+  vertical-align: top;
+}
+
+.student-desc{
+  width: 26rem;
+  margin: auto;
+}
+
+.program-desc, .bake-desc, .piano-desc {
+  width: 40rem;
+}
+
+.student-skills{
+  width: 36rem;
+  margin: auto;
+}
+
+.bottom-container{
+  background-color: #f0cf85;
+  padding-top: 40px;
+}
+
+.skill-rows{
+  margin: 3.25rem auto 9.25rem auto;
+  text-align: left;
+}
+
+.profile-pic{
+  border-radius: 1.875rem;
+}
+
+
+/* profile pic and bio */
+/*
+.student{
+  padding-bottom: 3.5rem;
+} */
+
+/* entire skill div*/
+.skills{
+  width: 50%;
+  margin: auto;
+}
+
+
+/* *******NAVIGATION BAR BELOW********* */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #e6a157;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  font-size: 19px;
+  float: left;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #9dab86;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.contact-info{
+  color: #a05f96;
+}
+
+.furlough{
+  width: 32rem;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.bakeimg, .codeimg {
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.pianoimg{
+  width: 25%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+
+.button-deco {
+
+  /*
+   -webkit-border-radius: 24px;
+   -moz-border-radius: 24px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+*/
+  color: white;
+  background-color: #F7C5A8;
+  border-radius: 24px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 0 1px 4px #DD380D;
+  box-shadow: 1px 1px 20px 0 #B51E63;
+  font-family: monospace;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.button-deco:hover{
+   background-color: #e7a4e4;
+   color: black;
+}
+
+.contact-me{
+  padding-bottom: 6rem;
+}
+
+.contact-button{
+  padding-top: 3rem;
+}
+
+/* LINKS TO SOCIAL MEDIA DECO */
+.tbl{
+  margin: auto;
+}
+
+/* LINKS TO SOCIAL MEDIA DECO */
+td {
+  padding: 0.5em;
+  padding-right: 1em;
+}
+
+
+.copyright{
+  color:  #EAF6F6;
+  font-size: 0.95rem;
+  padding-bottom: 2rem;
+}
